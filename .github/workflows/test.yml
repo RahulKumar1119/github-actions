@@ -7,7 +7,6 @@ jobs:
       - name: Get Code
         uses: actions/checkout@v3
         with:
-          node-version: 18
           path: Code/02\ Basics/03\ Finished\ Project
       - name: Install dependencies 
         run: npm ci
